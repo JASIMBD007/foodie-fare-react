@@ -1,7 +1,7 @@
 import React from 'react';
 import './AvailableFoods.css';
-import Card from '../../UI/Card';
 import FoodItem from '../FoodItem/FoodItem';
+import Card from '../../UI/Card/Card';
 
 const DUMMY_FOODS = [
     {
