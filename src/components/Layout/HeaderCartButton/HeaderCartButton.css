@@ -10,6 +10,8 @@
   align-items: center;
   border-radius: 25px;
   font-weight: bold;
+  margin-left: auto; /* Push the button to the right */
+  margin-right: 2rem;
 }
 
 .button:hover,
@@ -33,7 +35,7 @@
 
 .button:hover .badge,
 .button:active .badge {
-  background-color: #92320c;
+  background-color: #bd4516;
 }
 
 .bump {
