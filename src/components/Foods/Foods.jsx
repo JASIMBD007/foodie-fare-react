@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import FoodsSummary from './FoodsSummary'
-import AvailableFoods from './AvailableFoods'
+import FoodsSummary from './FoodsSummary/FoodsSummary'
+import AvailableFoods from './AvailableFoods/AvailableFoods'
 
 const Foods = () => {
     return (
