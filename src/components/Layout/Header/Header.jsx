@@ -6,11 +6,11 @@ import HeaderCartButton from '../HeaderCartButton/HeaderCartButton';
 const Header = () => {
     return (
         <Fragment>
-            <header>
+            <header className='header'>
                 <h1>FoodieFare</h1>
                 <HeaderCartButton />
             </header>
-            <div>
+            <div className='main-image'>
                 <img src={meals} alt="A table full of delicious food!" />
             </div>
         </Fragment>

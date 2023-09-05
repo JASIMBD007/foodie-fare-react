@@ -9,10 +9,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 1rem; /* Adjust the padding as needed */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 10;
 }
+
+/* Rest of your existing styles for .icon, .badge, .bump, etc. */
+
+.button {
+  margin-left: auto; /* Push the button to the right */
+  margin-right: 2rem; /* Adjust this margin to
+
+
+/* Rest of your existing styles for .button, .icon, .badge, .bump, etc. */
 
 .main-image {
   width: 100%;

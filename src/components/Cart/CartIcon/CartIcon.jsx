@@ -1,7 +1,7 @@
 import React from 'react'
 import './CartIcon.css';
 
-const CartIcon = () => {
+const CartIcon = (props) => {
     return (
         <div>
             <svg
