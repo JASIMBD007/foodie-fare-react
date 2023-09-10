@@ -11,9 +11,9 @@ const cartItems = [
     }
 ]
 
-const Cart = () => {
+const Cart = (props) => {
     return (
-        <Modal>
+        <Modal onHideCart={props.onHideCart} >
             <ul>
                 {
                     cartItems.map(item => <li key={item.id}>{item.name}</li>)
@@ -24,7 +24,7 @@ const Cart = () => {
                 <span>33.62</span>
             </div>
             <div className='actions'>
-                <button className='button button--alt'>Close</button>
+                <button className='button button--alt' onClick={props.onHideCart} >Close</button>
                 <button className='button'>Order</button>
             </div>
         </Modal>
