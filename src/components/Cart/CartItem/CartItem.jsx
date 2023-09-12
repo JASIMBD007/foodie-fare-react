@@ -1,7 +1,7 @@
 import './CartItem.css'
 
-const CartItem = ({ item }) => {
-    const { id, name, price, amount, onAdd, onRemove } = item;
+const CartItem = ({ item, onAdd, onRemove }) => {
+    const { id, name, price, amount } = item;
 
     return (
         <li className="cart-item">
