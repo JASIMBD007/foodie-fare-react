@@ -8,7 +8,7 @@ const CartItem = ({ item }) => {
             <div>
                 <h2>{name}</h2>
                 <div className="description">
-                    <span className="price">{price.toFixed(2)}</span>
+                    <span className="price">${price.toFixed(2)}</span>
                     <span className="amount">x {amount}</span>
                 </div>
             </div>
